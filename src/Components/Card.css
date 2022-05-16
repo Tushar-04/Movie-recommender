@@ -1,0 +1,23 @@
+.movie-container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+}
+.movie{
+    background-color: rgb(153, 151, 151);
+    margin: 1rem;
+    width: 250px;
+}
+.movie img{
+    max-width: 100%;
+}
+.movie-info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+}
+.movie-info h3{
+    margin: 0;
+}

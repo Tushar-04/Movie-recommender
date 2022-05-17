@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/Movie-recommender/static/css/main.b0b0368f.css",
-    "main.js": "/Movie-recommender/static/js/main.d1d66adf.js",
+    "main.css": "/Movie-recommender/static/css/main.8d0d2bf8.css",
+    "main.js": "/Movie-recommender/static/js/main.93bbb997.js",
     "static/js/787.22edae46.chunk.js": "/Movie-recommender/static/js/787.22edae46.chunk.js",
     "static/media/land-back.jpg": "/Movie-recommender/static/media/land-back.30bc6cbc06dd9adc8f19.jpg",
     "index.html": "/Movie-recommender/index.html",
-    "main.b0b0368f.css.map": "/Movie-recommender/static/css/main.b0b0368f.css.map",
-    "main.d1d66adf.js.map": "/Movie-recommender/static/js/main.d1d66adf.js.map",
+    "main.8d0d2bf8.css.map": "/Movie-recommender/static/css/main.8d0d2bf8.css.map",
+    "main.93bbb997.js.map": "/Movie-recommender/static/js/main.93bbb997.js.map",
     "787.22edae46.chunk.js.map": "/Movie-recommender/static/js/787.22edae46.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b0b0368f.css",
-    "static/js/main.d1d66adf.js"
+    "static/css/main.8d0d2bf8.css",
+    "static/js/main.93bbb997.js"
   ]
 }

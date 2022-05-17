@@ -12,7 +12,7 @@ export default function SearchBar() {
     const [MovieList, SetmovieList] = useState([]);
     const GetplaceList = async (query) => {
         console.log(query);
-        const temp = await fetch(`https://api.themoviedb.org/3/search/movie?api_key=d792c3caf37f7ef3e35506b21a815e75&query=${query}`).then(res => res.json());
+        const temp = await fetch(`https://api.themoviedb.org/3/search/movie?api_key=d792c3caf37f7ef3e35506b21a815e75&query=${query}&adult=false`).then(res => res.json());
         console.log(temp.results);
         SetmovieList(temp.results);
         

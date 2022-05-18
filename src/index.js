@@ -3,13 +3,11 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
 import Navbar from './Components/Navbar';
-import SearchBar from './Components/SearchBar';
 
 
 ReactDOM.render(
     <>
     <Navbar/>
-    <SearchBar/>
     </>,
   document.getElementById('root')
 );

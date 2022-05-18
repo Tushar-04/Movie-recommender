@@ -18,7 +18,7 @@ export default function () {
     }
     return (
         <div className='Trend'>
-            <h1>The trending movies of this week</h1>
+            <h1>Movies trending this week</h1>
             {MovieList.length !== 0 && (<Card data={MovieList} />)}
         </div>
     )

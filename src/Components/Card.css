@@ -8,6 +8,8 @@
     background-color: rgb(153, 151, 151);
     margin: 1rem;
     width: 250px;
+    overflow: hidden;
+    position: relative;
 }
 .movie img{
     max-width: 100%;
@@ -20,4 +22,19 @@
 }
 .movie-info h3{
     margin: 0;
+}
+.movie-over{
+    background-color: white;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 1rem;
+    overflow: auto;
+    max-height: 100%;
+    transform: translateY(100%);
+    transition: transform 0.3s ease-in-out;
+}
+.movie:hover .movie-over{
+    transform: translateY(0%);
 }

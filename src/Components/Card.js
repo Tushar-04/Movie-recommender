@@ -13,6 +13,10 @@ export default function Card(props) {
             <h3>{movie.title}</h3>
             <span>{movie.vote_average}</span>
             </div>
+            <div className='movie-over'>
+              <h3>Overview:</h3>
+              <p>{movie.overview}</p>
+            </div>
           </div>
         </>
       ))
